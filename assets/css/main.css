@@ -99,20 +99,20 @@ header{
 	padding-bottom: 4em;
 }
 
-.second-container h2{
+#values .second-container h2{
 	font-size: 2.5em;
 	font-weight: 400;
 
 }
 
-.second-container .btn-style{
+#values .second-container .btn-style{
 	color: #FFF;
 	background-color: transparent;
 	border-color: #FFF;
 	font-size: 1em;
 	font-weight: 500;
 }
-.second-container .btn-style:hover{
+#values .second-container .btn-style:hover{
 	color: #FFF;
 	background-color: #333;
 	border-color: #FFF;
@@ -149,7 +149,9 @@ header{
 }
 
 /* Press Section */
-#press{
+
+/* first container */
+#press .first-container{
 	padding-top: 4em;
 	padding-bottom: 6em;
 }
@@ -162,3 +164,32 @@ header{
 	color: yellow;
 	margin: .5em;
 }
+
+/* second container */
+#press .second-container{
+	background-color: #333;
+	padding-top: 4em;
+	padding-bottom: 6em;
+}
+
+#press .second-container h3{
+	color: #FFF;
+}
+
+#press .second-container input{
+	padding: 1em;
+}
+
+#press .form-control{
+	height: auto;
+}
+
+#press .second-container .btn-style{
+	color: #FFF;
+	letter-spacing: 1px;
+	background-color: #c2b49a;
+	border-color: #c2b49a;
+	font-weight: 700;
+	padding: 1em;
+}
+
