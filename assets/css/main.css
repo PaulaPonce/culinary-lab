@@ -147,3 +147,18 @@ header{
 	position: absolute;
 	top: 30%;
 }
+
+/* Press Section */
+#press{
+	padding-top: 4em;
+	padding-bottom: 6em;
+}
+
+.list-group{
+	list-style-type: none;
+}
+
+.list-group i{
+	color: yellow;
+	margin: .5em;
+}
