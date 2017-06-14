@@ -1,7 +1,20 @@
 body{
 	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
 	margin: 0;
 	padding: 0;
+}
+
+h1, h2, h3, h4{
+	font-weight: 300;
+}
+
+a{
+	color: #FFF;
+}
+a:hover{
+	color: #959090;
 }
 
 /* Header */
@@ -12,3 +25,27 @@ header{
 	background-repeat: no-repeat;
 	height: 100vh;
 }
+
+.nav-style{
+	color: #FFF;
+	background-color: transparent;
+    border-color: transparent;
+}
+
+#header .navbar-default .navbar-nav>li>a{
+    color: #FFF;
+    font-weight: 500;
+}
+#header .navbar-default .navbar-nav>li>a:hover{
+    color: #959090;
+}
+
+.header-style{
+	padding-top: 10em;
+}
+
+.header-style i{
+	font-size: 3em;
+	padding-top: 3em;
+}
+
