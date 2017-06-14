@@ -49,3 +49,38 @@ header{
 	padding-top: 3em;
 }
 
+/* Values Section */
+#values{
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+hr{
+	max-width: 150px;
+    height: 2px;
+	border-top: 1px solid #AE9068;
+	border-bottom: 2px solid #AE9068;
+}
+
+#values i{
+	font-size: 1.5em;
+	margin: .5em;
+}
+
+.circle-icon{
+	line-height: 2em;
+    background: transparent;
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    border-radius: 50%;
+    border: 2px solid #333;
+    text-align: center;
+}
+
+#values h1, #values h3{
+	font-weight: 900;
+}
+#values h3{
+	padding-left: 1em;
+}
