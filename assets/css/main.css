@@ -218,7 +218,6 @@ header{
 	font-weight: 900;
 }
 
-
 /* Menu Section */
 #menu{
 	padding-top: 4em;
@@ -226,4 +225,36 @@ header{
 }
 #menu .img-responsive{
 	max-width: 100%;
+}
+
+/* Footer */
+
+/* footer above */
+.footer-above{
+	color: #FFF;
+	background-color: #333;
+	padding-top: 2em;
+	padding-bottom: 2em;
+}
+
+.footer-above h4{
+	font-size: 2em;
+}
+
+/* footer below */
+.footer-below{
+	color: whitesmoke;
+	background-image: url(../img/bg-footer.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 6em;
+}
+
+.footer-below .list-inline{
+	padding-top: 4em;
+	padding-bottom: 4em
+}
+
+.footer-below i{
+	font-size: 2em;
 }
