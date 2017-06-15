@@ -9,8 +9,12 @@ body{
 h1, h3{
 	font-weight: 900;
 }
- h2, h4{
+h2, h4{
 	font-weight: 300;
+}
+h5{
+	font-size: 1.4em;
+	font-weight: 500;
 }
 
 a{
@@ -193,3 +197,23 @@ header{
 	padding: 1em;
 }
 
+/* Hours Section*/
+#hours{
+	color: #FFF;
+	background-image: url(../img/bg-pricing.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+	padding-top: 4em;
+	padding-bottom: 4em;
+}
+
+#hours h3, #hours .list-group{
+	color: #333;
+}
+
+#hours .btn-style{
+	background-color: transparent;
+	border: 2px solid #333;
+	font-weight: 900;
+}
