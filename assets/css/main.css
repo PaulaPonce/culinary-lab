@@ -134,7 +134,7 @@ header{
 	color: #FFF;
 }
 
-.item{
+#people .item{
 	padding: 1em;
 }
 
@@ -216,4 +216,14 @@ header{
 	background-color: transparent;
 	border: 2px solid #333;
 	font-weight: 900;
+}
+
+
+/* Menu Section */
+#menu{
+	padding-top: 4em;
+	padding-bottom: 6em;
+}
+#menu .img-responsive{
+	max-width: 100%;
 }
